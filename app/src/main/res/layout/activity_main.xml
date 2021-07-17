@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    android:background="#cbddf1"
+    android:padding="16dp"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/image_view_bitmap"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bitmap from assets"
+        android:gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bitmap To File"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:id="@+id/image_view_file"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+</LinearLayout>
